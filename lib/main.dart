@@ -1,0 +1,22 @@
+import 'package:flutter/material.dart';
+
+// Main function that starts the application
+void main() {
+  runApp(
+    MaterialApp(
+      home: Scaffold(
+        backgroundColor: Colors.blueGrey,
+        appBar: AppBar(
+          title: Text('I\'m rich!'),
+          centerTitle: true,
+          backgroundColor: Colors.blueGrey[900],
+        ),
+        body: Center(
+          child: Image(
+            image: AssetImage('images/diamond.png'),
+          ),
+        ),
+      ),
+    ),
+  );
+}
